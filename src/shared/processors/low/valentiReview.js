@@ -1,13 +1,32 @@
 import ValentiReview from '../../components/ValentiReview';
 
+const findElement = (element, className) => {
+  const { props, children } = element;
+  if (props && props.className && props.className.includes(className)) {
+    return element;
+  }
+  return children && children.find(e => findElement(e, className));
+};
+
+const getTitle = element => {
+  const titleElement = findElement(element, 'cb-review-title');
+  let title = '';
+
+  if (titleElement) {
+    [{ content: title }] = titleElement.children;
+  }
+
+  return title;
+};
+
 export default {
   test: ({ component, props }) =>
     component === 'div' &&
     !!props.className &&
     props.className.includes('cb-review-box'),
-  process: () => {
+  process: element => {
     const props = {
-      title: 'Avianca Colombia: Opiniones y valoración',
+      title: getTitle(element),
       summary: {
         label: 'Nota Final',
         score: '8.7',
@@ -20,7 +39,7 @@ export default {
         { label: 'Información al cliente', stars: '7%' },
         { label: 'Servicios', stars: '6%' },
       ],
-      review: {
+      userRating: {
         label: 'Puntación de los lectores ',
         votes: '0 Votos',
         stars: '100%',
