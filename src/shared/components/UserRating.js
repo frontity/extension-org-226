@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import Stars from './Stars';
 
-const UsersReview = ({ label, votes, stars }) => (
+const UserRating = ({ label, votes, stars }) => (
   <Container>
     <Label>
       {label}
@@ -13,13 +13,13 @@ const UsersReview = ({ label, votes, stars }) => (
   </Container>
 );
 
-UsersReview.propTypes = {
+UserRating.propTypes = {
   label: PropTypes.string.isRequired,
   votes: PropTypes.string.isRequired,
   stars: PropTypes.string.isRequired,
 };
 
-export default UsersReview;
+export default UserRating;
 
 const Container = styled.div`
   display: flex;

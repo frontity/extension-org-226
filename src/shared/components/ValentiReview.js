@@ -4,9 +4,9 @@ import styled from 'styled-components';
 
 import ScoreBox from './ScoreBox';
 import Criteria from './Criteria';
-import UsersReview from './UsersReview';
+import UserRating from './UserRating';
 
-const ValentiReview = ({ title, summary, criteria, review }) => (
+const ValentiReview = ({ title, summary, criteria, userRating }) => (
   <Container className="ignored-by-content">
     <Area>
       <Title>{title}</Title>
@@ -18,7 +18,7 @@ const ValentiReview = ({ title, summary, criteria, review }) => (
       ))}
     </Area>
     <Area>
-      <UsersReview {...review} />
+      <UserRating {...userRating} />
     </Area>
   </Container>
 );
@@ -36,7 +36,7 @@ ValentiReview.propTypes = {
       stars: PropTypes.string.isRequired,
     }),
   ).isRequired,
-  review: PropTypes.shape({
+  userRating: PropTypes.shape({
     label: PropTypes.string.isRequired,
     votes: PropTypes.string.isRequired,
     stars: PropTypes.string.isRequired,
