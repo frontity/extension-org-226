@@ -1,0 +1,367 @@
+{
+  "type": "element",
+  "component": "div",
+  "props": {
+    "id": "cb-review-container",
+    "className": "cb-review-box cb-review-top cb-half cb-both cb-stars-container clearfix"
+  },
+  "children": [
+    {
+      "type": "element",
+      "component": "div",
+      "props": {
+        "className": "cb-summary-area cb-review-area clearfix"
+      },
+      "children": [
+        {
+          "type": "element",
+          "component": "div",
+          "props": {
+            "className": "cb-review-title entry-title"
+          },
+          "children": [
+            {
+              "type": "text",
+              "content": "Avianca Colombia: Opiniones y valoración",
+              "parent": null
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "component": "div",
+          "props": {
+            "className": "cb-score-box cb-stars clearfix"
+          },
+          "children": [
+            {
+              "type": "element",
+              "component": "span",
+              "props": {
+                "className": "score"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "content": "8.7",
+                  "parent": null
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "component": "span",
+              "props": {
+                "className": "score-title"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "content": "Nota Final",
+                  "parent": null
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "component": "span",
+              "props": {
+                "className": "cb-overlay-stars"
+              },
+              "children": [
+                {
+                  "type": "element",
+                  "component": "span",
+                  "props": {
+                    "className": "cb-opacity cb-zero-stars-trigger",
+                    "style": "width:13%;"
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "component": "div",
+      "props": {
+        "className": "cb-criteria-area cb-review-area clearfix"
+      },
+      "children": [
+        {
+          "type": "element",
+          "component": "div",
+          "props": {
+            "className": "cb-bar cb-font-header cb-stars"
+          },
+          "children": [
+            {
+              "type": "element",
+              "component": "span",
+              "props": {
+                "className": "cb-criteria"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "content": "Precios",
+                  "parent": null
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "component": "span",
+              "props": {
+                "className": "cb-overlay-stars"
+              },
+              "children": [
+                {
+                  "type": "element",
+                  "component": "span",
+                  "props": {
+                    "className": "cb-opacity cb-zero-stars-trigger",
+                    "style": "width:12%;"
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "component": "div",
+          "props": {
+            "className": "cb-bar cb-font-header cb-stars"
+          },
+          "children": [
+            {
+              "type": "element",
+              "component": "span",
+              "props": {
+                "className": "cb-criteria"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "content": "Métodos de pago",
+                  "parent": null
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "component": "span",
+              "props": {
+                "className": "cb-overlay-stars"
+              },
+              "children": [
+                {
+                  "type": "element",
+                  "component": "span",
+                  "props": {
+                    "className": "cb-opacity cb-zero-stars-trigger",
+                    "style": "width:12%;"
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "component": "div",
+          "props": {
+            "className": "cb-bar cb-font-header cb-stars"
+          },
+          "children": [
+            {
+              "type": "element",
+              "component": "span",
+              "props": {
+                "className": "cb-criteria"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "content": "Diseño y usabilidad",
+                  "parent": null
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "component": "span",
+              "props": {
+                "className": "cb-overlay-stars"
+              },
+              "children": [
+                {
+                  "type": "element",
+                  "component": "span",
+                  "props": {
+                    "className": "cb-opacity cb-zero-stars-trigger",
+                    "style": "width:8%;"
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "component": "div",
+          "props": {
+            "className": "cb-bar cb-font-header cb-stars"
+          },
+          "children": [
+            {
+              "type": "element",
+              "component": "span",
+              "props": {
+                "className": "cb-criteria"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "content": "Información al cliente",
+                  "parent": null
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "component": "span",
+              "props": {
+                "className": "cb-overlay-stars"
+              },
+              "children": [
+                {
+                  "type": "element",
+                  "component": "span",
+                  "props": {
+                    "className": "cb-opacity cb-zero-stars-trigger",
+                    "style": "width:8%;"
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "component": "div",
+          "props": {
+            "className": "cb-bar cb-font-header cb-stars"
+          },
+          "children": [
+            {
+              "type": "element",
+              "component": "span",
+              "props": {
+                "className": "cb-criteria"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "content": "Servicios",
+                  "parent": null
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "component": "span",
+              "props": {
+                "className": "cb-overlay-stars"
+              },
+              "children": [
+                {
+                  "type": "element",
+                  "component": "span",
+                  "props": {
+                    "className": "cb-opacity cb-zero-stars-trigger",
+                    "style": "width:26%;"
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "component": "div",
+      "props": {
+        "className": "cb-bar cb-font-header cb-review-area clearfix cb-user-rating cb-stars"
+      },
+      "children": [
+        {
+          "type": "element",
+          "component": "div",
+          "props": {
+            "id": "cb-vote",
+            "className": "cb-stars stars"
+          },
+          "children": [
+            {
+              "type": "element",
+              "component": "span",
+              "props": {
+                "className": "cb-criteria"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "content": "Puntuación de los lectores ",
+                  "parent": null
+                },
+                {
+                  "type": "element",
+                  "component": "span",
+                  "props": {
+                    "className": "cb-votes-count"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "content": "0 Votos",
+                      "parent": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "component": "span",
+              "props": {
+                "className": "cb-overlay-stars cb-stars"
+              },
+              "children": [
+                {
+                  "type": "element",
+                  "component": "span",
+                  "props": {
+                    "className": "cb-opacity",
+                    "style": "width:100%;"
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
