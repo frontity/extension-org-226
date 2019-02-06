@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Extension Organization 226 › Shared › Processors › low › valentiReview extracts all criteria  1`] = `
+Array [
+  Object {
+    "label": "Precios",
+    "stars": "12%",
+  },
+  Object {
+    "label": "Métodos de pago",
+    "stars": "12%",
+  },
+  Object {
+    "label": "Diseño y usabilidad",
+    "stars": "8%",
+  },
+  Object {
+    "label": "Información al cliente",
+    "stars": "8%",
+  },
+  Object {
+    "label": "Servicios",
+    "stars": "26%",
+  },
+]
+`;
+
+exports[`Extension Organization 226 › Shared › Processors › low › valentiReview extracts summary data  1`] = `
+Object {
+  "label": "Nota Final",
+  "score": "8.7",
+  "stars": "13%",
+}
+`;
+
+exports[`Extension Organization 226 › Shared › Processors › low › valentiReview extracts title  1`] = `"Avianca Colombia: Opiniones y valoración"`;
+
+exports[`Extension Organization 226 › Shared › Processors › low › valentiReview extracts user rating 1`] = `
+Object {
+  "label": "Puntuación de los lectores ",
+  "stars": "100%",
+  "votes": "0 Votos",
+}
+`;
+
+exports[`Extension Organization 226 › Shared › Processors › low › valentiReview processor works as expected 1`] = `
+Object {
+  "component": [Function],
+  "props": Object {
+    "criteria": Array [
+      Object {
+        "label": "Precios",
+        "stars": "12%",
+      },
+      Object {
+        "label": "Métodos de pago",
+        "stars": "12%",
+      },
+      Object {
+        "label": "Diseño y usabilidad",
+        "stars": "8%",
+      },
+      Object {
+        "label": "Información al cliente",
+        "stars": "8%",
+      },
+      Object {
+        "label": "Servicios",
+        "stars": "26%",
+      },
+    ],
+    "summary": Object {
+      "label": "Nota Final",
+      "score": "8.7",
+      "stars": "13%",
+    },
+    "title": "Avianca Colombia: Opiniones y valoración",
+    "userRating": Object {
+      "label": "Puntuación de los lectores ",
+      "stars": "100%",
+      "votes": "0 Votos",
+    },
+  },
+}
+`;
